@@ -15,6 +15,7 @@ var img = require('../controller/imagecontroller')
 // var upload = multer({ storage: storage })
 
 // router.post('/insert',upload.array('image', 12),img.insert) 
+
 router.post('/insert',img.insert)
 router.get('/img-data',img.getdata) 
 
